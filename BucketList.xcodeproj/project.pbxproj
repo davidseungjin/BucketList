@@ -11,6 +11,11 @@
 		54661286285FD1640023DA19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54661285285FD1640023DA19 /* ContentView.swift */; };
 		54661288285FD1670023DA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54661287285FD1670023DA19 /* Assets.xcassets */; };
 		5466128B285FD1670023DA19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5466128A285FD1670023DA19 /* Preview Assets.xcassets */; };
+		54661292285FE3420023DA19 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54661291285FE3420023DA19 /* EditView.swift */; };
+		54661294285FECA00023DA19 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54661293285FECA00023DA19 /* Result.swift */; };
+		54661296285FF1CD0023DA19 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54661295285FF1CD0023DA19 /* ContentView-ViewModel.swift */; };
+		546612982860081D0023DA19 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546612972860081D0023DA19 /* FileManager-DocumentsDirectory.swift */; };
+		5466129A28600A9F0023DA19 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466129928600A9F0023DA19 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		54661285285FD1640023DA19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54661287285FD1670023DA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5466128A285FD1670023DA19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54661291285FE3420023DA19 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		54661293285FECA00023DA19 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		54661295285FF1CD0023DA19 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		546612972860081D0023DA19 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		5466129928600A9F0023DA19 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +61,12 @@
 		54661282285FD1640023DA19 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				546612972860081D0023DA19 /* FileManager-DocumentsDirectory.swift */,
+				54661295285FF1CD0023DA19 /* ContentView-ViewModel.swift */,
+				54661293285FECA00023DA19 /* Result.swift */,
 				54661283285FD1640023DA19 /* BucketListApp.swift */,
+				54661291285FE3420023DA19 /* EditView.swift */,
+				5466129928600A9F0023DA19 /* Location.swift */,
 				54661285285FD1640023DA19 /* ContentView.swift */,
 				54661287285FD1670023DA19 /* Assets.xcassets */,
 				54661289285FD1670023DA19 /* Preview Content */,
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546612982860081D0023DA19 /* FileManager-DocumentsDirectory.swift in Sources */,
 				54661286285FD1640023DA19 /* ContentView.swift in Sources */,
 				54661284285FD1640023DA19 /* BucketListApp.swift in Sources */,
+				54661296285FF1CD0023DA19 /* ContentView-ViewModel.swift in Sources */,
+				54661294285FECA00023DA19 /* Result.swift in Sources */,
+				54661292285FE3420023DA19 /* EditView.swift in Sources */,
+				5466129A28600A9F0023DA19 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +290,7 @@
 				DEVELOPMENT_TEAM = Y72M7FM388;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data - David, developer";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +320,7 @@
 				DEVELOPMENT_TEAM = Y72M7FM388;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data - David, developer";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
