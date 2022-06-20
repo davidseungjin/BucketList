@@ -1,10 +1,11 @@
-# BucketList
+## BucketList
+### Brief demonstration
 
-# Language utilized: Swift
-# Framework: SwiftUI
+<img src='https://github.com/davidseungjin/BucketList/blob/main/mapkit.gif' />
 
-# Purpose: Based on the MVVM design pattern, provide personal bucket list repository
-# Major technology: Http, Persistent storage, Face ID authentication, Map rendering
+Language utilized: Swift
+Framework and libraries: SwiftUI, Mapkip, Localauthentication
 
-# Demonstration
-https://github.com/davidseungjin/BucketList/blob/main/mapkit.gif
+
+Purpose: Based on the MVVM design pattern, provide personal bucket list repository with ensuring persistent data storage
+Major technology: Http, Persistent storage, Face ID authentication, Map rendering
